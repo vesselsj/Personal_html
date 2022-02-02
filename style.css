@@ -1,0 +1,45 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif, arial;
+}
+
+.menu-bar
+{
+	background: rgb(244,90,81);
+	text-align: center;
+}
+
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff
+}
+.menu-bar ul li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+
+}
+
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.active, .menu-bar ul li:hover
+{
+	background: rgb(244,108,127);
+	border-radius: 3px;
+}
